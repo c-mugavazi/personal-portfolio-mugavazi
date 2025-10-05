@@ -1,5 +1,6 @@
 {
   "name": "personal-website",
+  "homepage": "https://c-mugavazi.github.io/personal-portfolio-mugavazi/",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -10,7 +11,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint --ext .js --ignore-path .gitignore ."
+    "lint": "eslint --ext .js --ignore-path .gitignore .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.1.0",
