@@ -10,6 +10,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
+  base: '/personal-portfolio-mugavazi/',
   server: {
     port: 3000,
   },
